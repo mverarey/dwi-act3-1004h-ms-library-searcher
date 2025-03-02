@@ -17,10 +17,10 @@ spring:
   application:
     name: ms-library-searcher
   datasource:
-    url: jdbc:postgresql://turntable.proxy.rlwy.net:59446/postgres
+    url: ${datasource_url}
     driver-class-name: org.postgresql.Driver
-    username: postgres
-    password: XiXgSkttLOzldxFyEMujPJYMFSpUSXXu
+    username: ${datasource_username}
+    password: ${datasource_password}
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
