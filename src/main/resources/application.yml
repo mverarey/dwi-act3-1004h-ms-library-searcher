@@ -1,0 +1,25 @@
+server:
+  port: 8082
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    preferIpAddress: true
+    hostname: ms-library-searcher
+
+spring:
+  application:
+    name: ms-library-searcher
+  datasource:
+    url: jdbc:postgresql://turntable.proxy.rlwy.net:59446/postgres
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: XiXgSkttLOzldxFyEMujPJYMFSpUSXXu
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    # defer-datasource-initialization: true

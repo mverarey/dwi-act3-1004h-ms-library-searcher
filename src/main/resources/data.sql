@@ -1,0 +1,81 @@
+insert into category(category_id, category_name)
+values(101, 'JavaScript');
+insert into category(category_id, category_name)
+values(102, 'HTML/CSS');
+insert into category(category_id, category_name)
+values(103, 'Python');
+insert into category(category_id, category_name)
+values(104, 'SQL');
+insert into category(category_id, category_name)
+values(105, 'TypeScript');
+insert into category(category_id, category_name)
+values(106, 'Bash/Shell');
+insert into category(category_id, category_name)
+values(107, 'Java');
+insert into category(category_id, category_name)
+values(108, 'C#');
+insert into category(category_id, category_name)
+values(109, 'C++');
+insert into category(category_id, category_name)
+values(110, 'C');
+insert into category(category_id, category_name)
+values(111, 'PHP');
+insert into category(category_id, category_name)
+values(112, 'PowerShell');
+insert into category(category_id, category_name)
+values(113, 'Go');
+insert into category(category_id, category_name)
+values(114, 'Rust');
+insert into category(category_id, category_name)
+values(115, 'Kotlin');
+insert into category(category_id, category_name)
+values(116, 'Lua');
+insert into category(category_id, category_name)
+values(117, 'Dart');
+insert into category(category_id, category_name)
+values(118, 'Assembly');
+insert into category(category_id, category_name)
+values(119, 'Ruby');
+insert into category(category_id, category_name)
+values(120, 'Swift');
+
+insert into book(book_id, title, brief_description, description, author, price, category_id, isbn10, isbn13, publication_date, image_url, status)
+values(101, 'JavaScript: The Definitive Guide', 'This book is for programmers who want to learn JavaScript and for web developers who want to take their understanding and mastery to the next level.', 'JavaScript is the programming language of the web and is used by more software developers today than any other programming language. For nearly 25 years this best seller has been the go-to guide for JavaScript programmers.', 'David Flanagan', 38.37, 101, '1491952024', '978-1491952023', PARSEDATETIME('2020-06-02','yyyy-MM-dd'), 'https://m.media-amazon.com/images/I/91hUer84PpL._SL1500_.jpg', 'OPEN');
+insert into book(book_id, title, brief_description, description, author, price, category_id, isbn10, isbn13, publication_date, image_url, status)
+values(102, 'JavaScript from Beginner to Professional', 'This book demonstrates the capabilities of JavaScript for web application development by combining theoretical learning with code exercises and fun projects that you can challenge yourself with.', 'The book uses project-based learning to provide context for the theoretical components in a series of code examples that can be used as modules of an application, such as input validators, games, and simple animations.', 'Laurence Lars Svekis', 37.99, 101, '1800562527', '978-1800562523', PARSEDATETIME('2021-12-15','yyyy-MM-dd'), 'https://m.media-amazon.com/images/I/71oZ45OrLjL._SL1360_.jpg', 'OPEN');
+insert into book(book_id, title, brief_description, description, author, price, category_id, isbn10, isbn13, publication_date, image_url, status)
+values(103, 'JavaScript and jQuery', 'In the book, you will explore basic programming concepts that assume no prior knowledge of programming beyond an ability to create a web page using HTML & CSS.', 'In JavaScript and jQuery: Interactive Front-End Development, best-selling author Jon Duckett delivers a fully illustrated guide to making your websites more interactive and your interfaces more interesting and intuitive.', 'Jon Duckett', 22.33, 101, '9781118531648', '978-1118531648', PARSEDATETIME('2014-06-30','yyyy-MM-dd'), 'https://m.media-amazon.com/images/I/61u7pEHMZUL._SL1500_.jpg', 'OPEN');
+insert into book(book_id, title, brief_description, description, author, price, category_id, isbn10, isbn13, publication_date, image_url, status)
+values(104, 'JavaScript: The Comprehensive Guide', 'Refresh your knowledge or learn JavaScript as a beginner with in-depth coverage of JavaScript basics. Understand how to store values, use data types, control flow, and debug your code.', 'Begin your JavaScript journey with this comprehensive, hands-on guide. You will learn everything there is to know about professional JavaScript programming, from core language concepts to essential client-side tasks.', 'Philip Ackermann', 39.21, 101, '1493222864', '978-1493222865', PARSEDATETIME('2022-08-24','yyyy-MM-dd'), 'https://m.media-amazon.com/images/I/714Bhh248UL._SL1500_.jpg', 'OPEN');
+insert into book(book_id, title, brief_description, description, author, price, category_id, isbn10, isbn13, publication_date, image_url, status)
+values(105, 'JavaScript Crash Course', 'A fast-paced, thorough programming introduction that will have you writing your own software and web applications in no time.', 'JavaScript Crash Course is a fun-filled, fast-paced introduction to programming with JavaScript. Dive right in and you will be writing code, solving problems, and building working web applications and games in no time.', 'Nick Morgan', 29.99, 101, '1718502265', '978-1718502260', PARSEDATETIME('2024-03-05','yyyy-MM-dd'), 'https://m.media-amazon.com/images/I/713sKEvhMgL._SL1500_.jpg', 'OPEN');
+insert into book(book_id, title, brief_description, description, author, price, category_id, isbn10, isbn13, publication_date, image_url, status)
+values(106, 'Eloquent JavaScript, 3rd Edition', 'JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon.', 'As with previous editions, Haverbeke continues to teach through extensive examples and immerses you in code from the start, while exercises and full-chapter projects give you hands-on experience with writing your own programs.', 'Marijn Haverbeke', 21.99, 101, '1593279507', '978-1593279509', PARSEDATETIME('2018-12-04','yyyy-MM-dd'), 'https://m.media-amazon.com/images/I/81HqVRRwp3L._SL1500_.jpg', 'OPEN');
+insert into book(book_id, title, brief_description, description, author, price, category_id, isbn10, isbn13, publication_date, image_url, status)
+values(107, 'Eloquent JavaScript, 4th Edition', 'This edition of Eloquent JavaScript updates the book to describe the 2024 version of JavaScript, and shifts the attention given to some topics to better reflect current development practices.', 'JavaScript, the programming language that allows us to add programs to web pages, lies at the heart of almost every modern web application, from social media sites to browser-based games.', 'Marijn Haverbeke', 30.21, 101, '1718504101', '978-1718504103', PARSEDATETIME('2024-11-05','yyyy-MM-dd'), 'https://m.media-amazon.com/images/I/71787OImkEL._SL1500_.jpg', 'OPEN');
+insert into book(book_id, title, brief_description, description, author, price, category_id, isbn10, isbn13, publication_date, image_url, status)
+values(108, 'JavaScript All-in-One For Dummies', 'JavaScript All-in-One For Dummies saves you shelf space by offering a complete introduction to JavaScript and how it is used in the real world.', 'This book serves up JavaScript coding basics before diving into the libraries, frameworks, and runtime environments new and experienced coders need to know.', 'Chris Minnick', 24.06, 101, '1119906830', '978-1119906834', PARSEDATETIME('2023-05-09','yyyy-MM-dd'), 'https://m.media-amazon.com/images/I/81ycHtBjMWL._SL1500_.jpg', 'OPEN');
+insert into book(book_id, title, brief_description, description, author, price, category_id, isbn10, isbn13, publication_date, image_url, status)
+values(109, 'JavaScript QuickStart Guide', 'Master the most popular programming language in the world. Learn how to bring websites to life with the power of JavaScript, add dynamic interactivity and rich animations.', 'JavaScript powers everything from the website interactivity we take for granted every day to full-scale web applications run by multi-billion dollar corporations.', 'Robert Oliver', 34.99, 101, '1636100708', '978-1636100708', PARSEDATETIME('2024-11-12','yyyy-MM-dd'), 'https://m.media-amazon.com/images/I/61RCzgnLBmL._SL1360_.jpg', 'OPEN');
+insert into book(book_id, title, brief_description, description, author, price, category_id, isbn10, isbn13, publication_date, image_url, status)
+values(110, 'JavaScript and jQuery', 'This two-book set combines the titles HTML & CSS: Designing and Building Web Sites and JavaScript & jQuery: Interactive Front-End Development.', 'HTML & CSS covers structure, text, links, images, tables, forms, useful options, adding style with CSS, fonts, colors, thinking in boxes, styling lists and tables, layouts, grids, and even SEO, Google analytics, ftp, and HTML5.', 'Jon Duckett', 33.17, 101, '1118907442', '978-1118907443', PARSEDATETIME('2014-07-08','yyyy-MM-dd'), 'https://m.media-amazon.com/images/I/811a1DHT8OL._SL1500_.jpg', 'OPEN');
+insert into book(book_id, title, brief_description, description, author, price, category_id, isbn10, isbn13, publication_date, image_url, status)
+values(111, 'HTML and CSS: Design and Build Websites', 'This educational book is one that you will enjoy picking up, reading, then referring back to. It will make you wish other technical topics were presented in such a simple, attractive and engaging way!', 'Every day, more and more people want to learn some HTML and CSS. Joining the professional web designers and programmers are new audiences who need to know a little bit of code at work and those who want to make their personal blogs more attractive.', 'Jon Duckett', 16.59, 102, '1118008189', '978-1118008188', PARSEDATETIME('2020-06-02','yyyy-MM-dd'), 'https://m.media-amazon.com/images/I/613ZTDcDsiL._SL1500_.jpg', 'OPEN');
+insert into book(book_id, title, brief_description, description, author, price, category_id, isbn10, isbn13, publication_date, image_url, status)
+values(112, 'HTML & CSS: The Comprehensive Guide', 'Master HTML syntax and document structure. Work with tags, elements, and attributes to build HTML documents.', 'Develop simple and complex web layouts with CSS rules, selectors, declarations, combinators, pseudoclasses, and pseudoelements. Understand the principles of cascading, specificity, and inheritance.', 'Jurgen Wolf', 43.54, 102, '1493224220', '978-1493224227', PARSEDATETIME('2021-12-15','yyyy-MM-dd'), 'https://m.media-amazon.com/images/I/71Nu2eNEk8L._SL1500_.jpg', 'OPEN');
+insert into book(book_id, title, brief_description, description, author, price, category_id, isbn10, isbn13, publication_date, image_url, status)
+values(113, 'HTML and CSS QuickStart Guide', 'Every one of the over 4 billion webpages online today use HTML markup language to display its content. HTML is everywhere.', 'Experienced developers know that a mastery of HTML and CSS fundamentals is not only an essential web design skill, but also the solid foundation of a robust coding skillset.', 'David DuRocher', 24.49, 102, '1636100007', '978-1636100005', PARSEDATETIME('2014-06-30','yyyy-MM-dd'), 'https://m.media-amazon.com/images/I/6171OP4xq9L._SL1360_.jpg', 'OPEN');
+insert into book(book_id, title, brief_description, description, author, price, category_id, isbn10, isbn13, publication_date, image_url, status)
+values(114, 'Responsive Web Design with HTML5 and CSS', 'Harness the latest capabilities of HTML5 and CSS to create a single UI that works flawlessly on mobile phones, tablets and desktops.', 'Responsive Web Design with HTML5 and CSS, Fourth Edition, is a fully revamped and extended version of one of the most comprehensive and bestselling books on the latest HTML5 and CSS techniques for responsive web design.', 'Ben Frain', 34.19, 102, '180324271X', '978-1803242712', PARSEDATETIME('2022-08-24','yyyy-MM-dd'), 'https://m.media-amazon.com/images/I/81n6iWkrsFL._SL1500_.jpg', 'OPEN');
+insert into book(book_id, title, brief_description, description, author, price, category_id, isbn10, isbn13, publication_date, image_url, status)
+values(115, 'Learning Web Design', 'This friendly guide is the perfect place to start. You will begin at square one, learning how the web and web pages work, and then steadily build from there.', 'This thoroughly revised edition is ideal for students and professionals of all backgrounds and skill levels. It is simple and clear enough for beginners, yet thorough enough to be a useful reference for experienced developers.', 'Jennifer Robbins', 31.99, 102, '1491960205', '978-1491960202', PARSEDATETIME('2024-03-05','yyyy-MM-dd'), 'https://m.media-amazon.com/images/I/A1O2e-E1WkL._SL1500_.jpg', 'OPEN');
+insert into book(book_id, title, brief_description, description, author, price, category_id, isbn10, isbn13, publication_date, image_url, status)
+values(116, 'Murachs HTML and CSS', 'This book has been thoroughly updated and streamlined so you won’t waste any time on outdated skills. Instead, you will focus on the skills that you need for modern web development.', 'This book begins with an eight-chapter crash course that teaches you HTML and CSS. By the end of this course, you will know how to use flexbox layout, fluid design, and media queries to create responsive web pages that include a navigation menu.', 'Zak Ruvalcaba', 51.19, 102, '1943873216', '978-1943873210', PARSEDATETIME('2018-12-04','yyyy-MM-dd'), 'https://m.media-amazon.com/images/I/817Ptsm+55L._SL1500_.jpg', 'OPEN');
+insert into book(book_id, title, brief_description, description, author, price, category_id, isbn10, isbn13, publication_date, image_url, status)
+values(117, 'HTML CSS Cheat Sheet', 'This book covers all basic HTML syntaxes, almost each syntax entry lists a program example and result output. (350 examples, 350 outputs, 350 explanations).', 'We can quickly reference the most helpful programming syntaxes, such as common command syntax, html tag syntax, html attribute syntax, html event syntax and Css syntax.', 'Alice Morris', 19.99, 102, '8877126046', '979-8877126046', PARSEDATETIME('2024-11-05','yyyy-MM-dd'), 'https://m.media-amazon.com/images/I/61A0uZx5WgL._SL1303_.jpg', 'OPEN');
+insert into book(book_id, title, brief_description, description, author, price, category_id, isbn10, isbn13, publication_date, image_url, status)
+values(118, 'HTML, CSS, and JavaScript All in One', 'In just a short time, you can learn how to use HTML, Cascading Style Sheets (CSS), and JavaScript together to design, create, and maintain world-class websites.', 'Clear instructions and practical, hands-on examples show you how to use HTML to create the framework of your website, design your site’s layout and typography with CSS, and then add interactivity with JavaScript and jQuery.', 'Julie Meloni', 26.88, 102, '0672338084', '978-0672338083', PARSEDATETIME('2023-05-09','yyyy-MM-dd'), 'https://m.media-amazon.com/images/I/61i4fA06JcL._SL1360_.jpg', 'OPEN');
+insert into book(book_id, title, brief_description, description, author, price, category_id, isbn10, isbn13, publication_date, image_url, status)
+values(119, 'HTML, CSS & JavaScript in easy steps', 'HTML, CSS & JavaScript in easy steps contains examples and screenshots that illustrate each feature of all three coding languages.', 'You will learn how to create web pages to display text, images, lists, tables, hyperlinks, forms, audio, and video. Each chapter builds your knowledge so by the end of the book you will have gained a sound understanding of HTML, CSS and JavaScript.', 'Mike McGrath', 19.49, 102, '184078878X', '978-1840788785', PARSEDATETIME('2024-11-12','yyyy-MM-dd'), 'https://m.media-amazon.com/images/I/81grclmjdSL._SL1500_.jpg', 'OPEN');
+insert into book(book_id, title, brief_description, description, author, price, category_id, isbn10, isbn13, publication_date, image_url, status)
+values(120, 'HTML, CSS, & JavaScript All-in-One', 'This book has the essentials you need to wrap your head around the key ingredients of website design and creation.', 'You will learn to build attractive, useful, and easy-to-navigate websites by combining HTML, CSS, and JavaScript into fun and practical creations.', 'Paul McFedries', 24.58, 102, '1394164688', '978-1394164684', PARSEDATETIME('2014-07-08','yyyy-MM-dd'), 'https://m.media-amazon.com/images/I/81QbO2b8j9L._SL1500_.jpg', 'OPEN');
