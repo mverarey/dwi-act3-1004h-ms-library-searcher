@@ -6,7 +6,7 @@ eureka:
     service-url:
       defaultZone: ${eureka_url:http://localhost:8761/eureka}
   instance:
-    preferIpAddress: false
+    preferIpAddress: true
     hostname: ${hostname:ms-library-searcher}
     non-secure-port-enabled: true
     secure-port-enabled: false
