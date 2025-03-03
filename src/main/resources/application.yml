@@ -8,12 +8,8 @@ eureka:
     service-url:
       defaultZone: ${EUREKA_URL:http://localhost:8761/eureka}
   instance:
-    preferIpAddress: false
-    hostname: ${HOSTNAME:ms-library-searcher}
-    non-secure-port-enabled: true
-    secure-port-enabled: false
-    non-secure-port: ${server.port}
-    secure-port: 443
+    preferIpAddress: true
+    hostname: ${HOSTNAME:localhost}
 
 spring:
   application:
